@@ -1,5 +1,3 @@
-package cc.openhome;
-
 public class Level4 {
     public static void main(String[] args) {
         var score = 88;
@@ -17,5 +15,8 @@ public class Level4 {
                 yield 'E';
         };
         System.out.printf("得分等級：%c%n", level);
+
+        System.out.printf("�o�����šG%c%n", level);
+
     }
 }

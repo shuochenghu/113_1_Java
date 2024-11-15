@@ -1,9 +1,8 @@
-package cc.openhome;
-
 public class Level5 {
     public static void main(String[] args) {
+
         final String warning = "（喔喔！不及格了！）";
-        
+
         var score = 59;
         var quotient = score / 10;
         var level = switch(quotient) {
@@ -16,6 +15,10 @@ public class Level5 {
                 yield message ;
             }
         };
+
         System.out.printf("得分等級：%s%n", level);
+
+        System.out.printf("�o�����šG%s%n", level);
+
     }
 }
