@@ -13,8 +13,11 @@ public class MutiException {
             //System.out.println(numbers[5]);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("處理未檢例外: " + e.getMessage());
-        } catch (Exception e ) {
+        } catch (FileNotFoundException  e) {
             System.out.println("處理受檢例外: " + e.getMessage());
         }
+//        catch (Exception e ) {
+//            System.out.println("處理受檢例外: " + e.getMessage());
+//        }
     }
 }
